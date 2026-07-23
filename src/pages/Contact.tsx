@@ -217,9 +217,9 @@ export const Contact: React.FC = () => {
               />
               <div className="absolute bg-white/90 dark:bg-slate-900/90 p-4 rounded-2xl shadow-xl text-center space-y-1 backdrop-blur-md">
                 <MapPin className="w-6 h-6 text-red-600 mx-auto animate-bounce" />
-                <p className="font-bold text-xs text-slate-900 dark:text-white">Indiranagar, Bengaluru Campus</p>
+                <p className="font-bold text-xs text-slate-900 dark:text-white">Hospital in West Gudur Rural, Andhra Pradesh</p>
                 <a
-                  href="https://maps.google.com"
+                  href="https://www.google.com/maps/place/SIDDHARDHA+MULTISPECIALITY+HOSPITAL/@14.1491405,79.8265698,2550m/data=!3m1!1e3!4m10!1m2!2m1!1sHospital+in+West+Gudur+Rural,+Andhra+Pradesh!3m6!1s0x3a4ce364fbdc8e0d:0x55a7765c72cab32e!8m2!3d14.1491405!4d79.8445942!15sCixIb3NwaXRhbCBpbiBXZXN0IEd1ZHVyIFJ1cmFsLCBBbmRocmEgUHJhZGVzaJIBCGhvc3BpdGFs4AEA!16s%2Fg%2F11m68hh96m?entry=ttu&g_ep=EgoyMDI2MDcyMC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-[11px] text-blue-600 font-bold hover:underline block"
