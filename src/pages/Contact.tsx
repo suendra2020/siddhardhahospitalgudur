@@ -208,7 +208,7 @@ export const Contact: React.FC = () => {
               </div>
             </div>
 
-            {/* Interactive Map Placeholder Card */}
+            {/* Interactive Maps Placeholder Card */}
             <div className="bg-slate-200 dark:bg-slate-800 h-48 rounded-3xl overflow-hidden relative flex items-center justify-center border border-slate-300 dark:border-slate-700 shadow-md">
               <img
                 src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?auto=format&fit=crop&q=80&w=800"
