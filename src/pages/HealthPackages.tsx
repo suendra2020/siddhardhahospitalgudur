@@ -14,7 +14,7 @@ export const HealthPackages: React.FC<HealthPackagesProps> = ({ onOpenAppointmen
       {/* Banner */}
       <section className="bg-slate-900 text-white py-16 relative overflow-hidden">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 relative z-10 text-center space-y-4">
-          <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest bg-emerald-950 px-3.5 py-1 rounded-full border border-emerald-800">
+          <span className="text-xs font-bold text-emerald-400 uppercase tracking-widest bg-emerald-950 px-3.5 py-1 rounded-full border border-emerald-800  mb-5 inline-block">
             Preventive Diagnostic Health
           </span>
           <h1 className="text-3xl sm:text-5xl font-extrabold font-heading">
