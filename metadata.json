@@ -1,0 +1,6 @@
+{
+  "name": "Siddhartha Multispeciality Hospital",
+  "description": "A premium, modern multi-speciality hospital web platform with comprehensive medical departments, doctor directory, appointment booking, health packages, and patient resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

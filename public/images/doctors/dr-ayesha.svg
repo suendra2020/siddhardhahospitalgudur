@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 650" width="100%" height="100%">
+  <!-- Transparent Background Cutout of Female Doctor (Dr. Ayesha Sharma) -->
+  <defs>
+    <linearGradient id="coatGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#E2E8F0"/>
+    </linearGradient>
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8B08D"/>
+      <stop offset="100%" stop-color="#D4936E"/>
+    </linearGradient>
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D1A10"/>
+      <stop offset="100%" stop-color="#120A06"/>
+    </linearGradient>
+    <linearGradient id="stethoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <!-- Hair Back Layer -->
+    <path d="M 180 150 C 160 220 170 340 180 400 L 320 400 C 330 340 340 220 320 150 Z" fill="url(#hairGrad)"/>
+
+    <!-- Neck & Shoulders Base -->
+    <path d="M 220 220 L 280 220 L 290 280 L 210 280 Z" fill="url(#skinGrad)"/>
+
+    <!-- Torso & White Lab Coat Cutout -->
+    <!-- Inner Shirt -->
+    <path d="M 225 260 L 275 260 L 285 320 L 215 320 Z" fill="#0284C7"/>
+    
+    <!-- Coat Body -->
+    <path d="M 150 320 Q 250 290 350 320 L 390 650 L 110 650 Z" fill="url(#coatGrad)"/>
+    <!-- Coat Lapels -->
+    <path d="M 180 320 L 235 440 L 215 440 L 160 330 Z" fill="#CBD5E1"/>
+    <path d="M 320 320 L 265 440 L 285 440 L 340 330 Z" fill="#CBD5E1"/>
+
+    <!-- Left Arm & Raised Pointing Hand Gesture -->
+    <!-- Arm -->
+    <path d="M 150 320 Q 110 380 90 460 L 130 470 Q 150 400 180 340 Z" fill="url(#coatGrad)"/>
+    <!-- Cuff -->
+    <path d="M 90 460 L 130 470 L 125 485 L 85 475 Z" fill="#94A3B8"/>
+    <!-- Hand & Pointing Finger -->
+    <path d="M 88 472 Q 70 450 50 400 Q 45 390 52 390 Q 60 390 68 415 Q 75 435 80 445 L 85 450 Q 82 435 82 425 Q 88 425 90 445 L 92 460 Z" fill="url(#skinGrad)"/>
+
+    <!-- Right Arm Folded / Natural Side -->
+    <path d="M 350 320 Q 380 400 395 500 L 350 510 Q 340 420 320 340 Z" fill="url(#coatGrad)"/>
+
+    <!-- Stethoscope Around Neck -->
+    <path d="M 205 270 Q 200 340 230 380 Q 250 400 270 380 Q 300 340 295 270" stroke="url(#stethoGrad)" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Stethoscope Chest Piece -->
+    <circle cx="270" cy="380" r="14" fill="#64748B" stroke="#334155" stroke-width="3"/>
+    <circle cx="270" cy="380" r="8" fill="#E2E8F0"/>
+
+    <!-- Head & Face -->
+    <ellipse cx="250" cy="180" rx="55" ry="68" fill="url(#skinGrad)"/>
+
+    <!-- Hair Front / Style -->
+    <path d="M 195 160 C 200 110 250 100 295 120 C 310 130 305 170 305 180 C 290 140 240 135 205 160 Z" fill="url(#hairGrad)"/>
+    <!-- Flowing Hair Sides -->
+    <path d="M 195 160 C 180 200 175 250 185 300 C 195 260 200 210 205 175 Z" fill="url(#hairGrad)"/>
+    <path d="M 305 160 C 320 200 325 250 315 300 C 305 260 300 210 295 175 Z" fill="url(#hairGrad)"/>
+
+    <!-- Eyes -->
+    <ellipse cx="230" cy="175" rx="7" ry="5" fill="#1E293B"/>
+    <ellipse cx="270" cy="175" rx="7" ry="5" fill="#1E293B"/>
+    <circle cx="231" cy="173" r="2" fill="#FFFFFF"/>
+    <circle cx="271" cy="173" r="2" fill="#FFFFFF"/>
+    <!-- Eyebrows -->
+    <path d="M 220 163 Q 230 158 240 163" stroke="#2D1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 260 163 Q 270 158 280 163" stroke="#2D1A10" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Nose -->
+    <path d="M 250 175 L 246 192 L 254 192" stroke="#B47453" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Warm Friendly Smile -->
+    <path d="M 232 208 Q 250 224 268 208" stroke="#000000" stroke-width="2" fill="#FFFFFF"/>
+    <path d="M 235 208 Q 250 220 265 208" fill="#E11D48"/>
+
+    <!-- Doctor ID Badge / Stethoscope Ear Pieces -->
+    <rect x="310" y="380" width="28" height="40" rx="4" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="2"/>
+    <rect x="315" y="386" width="18" height="12" fill="#0284C7"/>
+    <line x1="315" y1="404" x2="333" y2="404" stroke="#64748B" stroke-width="2"/>
+    <line x1="315" y1="410" x2="328" y2="410" stroke="#94A3B8" stroke-width="2"/>
+  </g>
+</svg>
